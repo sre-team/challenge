@@ -1,6 +1,6 @@
 # parte_1:
 
-** Objetivo:** Implementar a aplicação [Mediawiki](https://www.mediawiki.org/wiki/MediaWiki) de acordo com os paterns de arquitetura a seguir:
+**Objetivo:** Implementar a aplicação [Mediawiki](https://www.mediawiki.org/wiki/MediaWiki) de acordo com os paterns de arquitetura a seguir:
 
 * A infraestrutura deve ser construída com base no conceito *"infrastructure-as-code"* utilizando um *"cloud provider"* de sua escolha;
 * A aplicação e sua respectiva infraestrutura deve ser entregue utilizando uma solução de automação também de sua escolha;
