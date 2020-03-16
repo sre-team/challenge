@@ -5,7 +5,7 @@
 * Utilizar a linguagem de programação da sua escolha no processo de desenvolvimento desta etapa;
 * A aplicação deve ser capaz de trazer a relação de páginas criadas no projeto em ordem alfabética;
 * O *"deployment"* da aplicação deve utilizar encapsulamento no formato de containers, uma solução baseada em Docker, ficando a seu critério utilizar um repositório externo ou alguma alternativa para o build da imagem;
-* Não se esqueça das instruções necessárias para rodar a aplicação consumindo a informação da parte_1 do projeto de forma que alguém possa testar o seu trabalho e entender o que foi construído;
+* Não se esqueça das instruções necessárias para rodar a aplicação consumindo a informação da [parte_1](https://github.com/sre-team/challenge/tree/master/parte_1) do projeto de forma que alguém possa testar o seu trabalho e entender o que foi construído;
 
 ---
 
