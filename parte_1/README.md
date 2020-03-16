@@ -7,7 +7,7 @@
 * A aplicação deve contar com persistência de dados;
 * O banco de dados e a aplicação devem estar em subnets distintas o que deverá tornar sua arquitetura mais complexa trazendo mais pontos para nossa discussão (qualquer solução de SGBD pode ser utilizada);
 * A solução inteira deve ser implantada considerando H.A;
-* Os componentes da solução devem ser monitorados (sua abordagem deve ser baseada em como em sua opinião seria estruturada a monitoração para averiguar e garantir a disponibilidade do projeto);
+* Os componentes da solução devem ser monitorados (sua abordagem deve ser baseada em como você entende que seria a monitoração para averiguar e garantir a disponibilidade do projeto);
 
 ---
 
