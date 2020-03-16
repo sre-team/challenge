@@ -14,7 +14,7 @@ Alguns esclarecimentos são pertinentes:
 
 ## Como começar:
 
-1. Execute um fork deste projeto para que possa trabalhar a vontade
+1. Execute um fork deste projeto para que possa trabalhar avontade
 2. Uma conta em um *"cloud provider"* provavelmente será de grande ajuda
 3. Se a sua motivação for um processo seletivo ao final do desafio teremos aquela conversa top sobre o seu trabalho \o/
 
