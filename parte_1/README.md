@@ -5,7 +5,7 @@
 * A infraestrutura deve ser construída com base no conceito *"infrastructure-as-code"* utilizando um *"cloud provider"* de sua escolha;
 * A aplicação e sua respectiva infraestrutura deve ser entregue utilizando uma solução de automação também de sua escolha;
 * A aplicação deve contar com persistência de dados;
-* A solução inteira deve ser implantada considerando H.A em relação ao dados e a aplicação;
+* A solução inteira deve ser implantada considerando H.A em relação ao acesso à aplicação;
 * Os componentes da solução devem ser monitorados (sua abordagem deve ser baseada em como você entende que seria a monitoração para averiguar e garantir a disponibilidade do projeto);
 
 ---
