@@ -1,11 +1,25 @@
-# parte_2:
+# Perfil de desenvolvimento:
 
-**Objetivo:** Desenvolver uma aplicação capaz de executar requisições em rest na api do projeto Mediawiki:
+**Objetivo:** Desenvolver uma aplicação capaz de executar requisições na [api rest do github](https://docs.github.com/en/rest).
 
-* Utilizar a linguagem de programação da sua escolha no processo de desenvolvimento desta etapa;
-* A aplicação deve ser capaz de trazer a relação de páginas criadas no projeto em ordem alfabética;
-* O *"deployment"* da aplicação deve utilizar encapsulamento no formato de containers, uma solução baseada em Docker, ficando a seu critério utilizar um repositório externo ou alguma alternativa para o build da imagem;
-* Não se esqueça das instruções necessárias para rodar a aplicação consumindo a informação da [parte_1](https://github.com/sre-team/challenge/tree/master/parte_1) do projeto de forma que alguém possa testar o seu trabalho e entender o que foi construído;
+**Requisitos**:
+- Utilizar a linguagem de programação Golang ou Python no processo de desenvolvimento.
+- Todo o processo de construção e entrega deve ser baseado nas práticas descritas no Twelve Factory, consulte a URL: [https://12factor.net/](https://12factor.net/).
+
+
+**Funcionalidade:**
+* A aplicação deverá expor uma API REST que receba como input o nome de um usuário do github e traga os seguintes dados:
+    - Últimas contribuições "commits" do usuário;
+    - Relação de projetos disponíveis em ordem alfabética;
+
+* O ["deployment"](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/) da aplicação deve utilizar encapsulamento no formato de container e estrutura de deployment preparada para entrega em ambiente de microserviços, preferencialmente Kubernetes, se possível publicar a imagem em um repositório público ou fornecer informações para o build do Dockerfile.
+
+* Para o consumo e consulta destes dados, você poderá escolher entre duas opções: Documentar adequadamente a sua API usando o próprio repositório ou um padrão comum aceito como o [swagger](https://swagger.io) ou criar uma página em uma linguagem de sua preferência que seja capaz de chamar a API e mostre os resultados, em ambos os cenários você deverá prever o modelo de yaml para construção dos resources que permitirão acessar o serviço em uma plataforma kubernetes para a consulta mas não é necessário efetivamente expor e manter uma plataforma no ar.
+
+* Não se esqueça de garantir a disponibilidade da aplicação usando processos como a provisão de uma URL de checagem de saúde "/health" ou similar configurada devidamente para que a plataforma de orquestração usada consiga detectar uma falha na aplicação ou na comunicação com o github por exemplo, e de expor métricas de execução utilizando formato e padrão de sua escolha que podeia ser consumido por uma ferramenta de monitoração (por exemplos, Prometheus, Zabbix, Cloudwatch da AWS, Stackdriver da google ou similar).
+
+**Importante:** Não é necessário configurar o processo de autenticação para acesso a repositórios privados, considere como primicia que o usuário submetido na requisição possui uma conta pública no github, ficará a seu critério determinar o formato ideal de output para as requisições submetidas trazendo os dados solicitados.
+
 
 ---
 
