@@ -1,6 +1,6 @@
 # parte_2:
 
-**Obetivo:** Desenvolver uma aplicação capaz de executar requisições em rest na api do projeto Mediawiki:
+**Objetivo:** Desenvolver uma aplicação capaz de executar requisições em rest na api do projeto Mediawiki:
 
 * Utilizar a linguagem de programação da sua escolha no processo de desenvolvimento desta etapa;
 * A aplicação deve ser capaz de trazer a relação de páginas criadas no projeto em ordem alfabética;
