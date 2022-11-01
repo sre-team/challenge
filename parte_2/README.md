@@ -4,8 +4,7 @@
 
 **Requisitos**:
 - Utilizar a linguagem de programação Golang ou Python no processo de desenvolvimento.
-- Todo o processo de construção e entrega deve ser baseado nas práticas descritas no Twelve Factory, consulte a URL: [https://12factor.net/](https://12factor.net/).
-
+- Todo o processo de construção e entrega deve ser baseado nas práticas descritas no Twelve-Factor, consulte a URL: [https://12factor.net/](https://12factor.net/).
 
 **Funcionalidade:**
 * A aplicação deverá expor uma API REST que receba como input o nome de um usuário do github e traga os seguintes dados:
