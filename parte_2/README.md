@@ -17,7 +17,7 @@
 
 * Não se esqueça de garantir a disponibilidade da aplicação usando processos como a provisão de uma URL de checagem de saúde "/health" ou similar configurada devidamente para que a plataforma de orquestração usada consiga detectar uma falha na aplicação ou na comunicação com o github, por exemplo, e de expor métricas de execução utilizando formato e padrão de sua escolha que possa ser consumido por uma ferramenta de monitoração como  Prometheus, Zabbix, Cloudwatch da AWS, Stackdriver da google ou similar.
 
-**Importante:** Não é necessário configurar o processo de autenticação para acesso a repositórios privados, considere como primícia que o usuário submetido na requisição possui uma conta pública no github, ficará a seu critério determinar o formato ideal de output para as requisições submetidas trazendo os dados solicitados.
+**Importante:** Não é necessário configurar o processo de autenticação para acesso a repositórios privados, considere como premissa que o usuário submetido na requisição possui uma conta pública no github, ficará a seu critério determinar o formato ideal de output para as requisições submetidas trazendo os dados solicitados.
 
 ---
 
